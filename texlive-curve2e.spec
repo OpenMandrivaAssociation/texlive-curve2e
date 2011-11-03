@@ -1,3 +1,9 @@
+# revision 23482
+# category Package
+# catalog-ctan /macros/latex/contrib/curve2e
+# catalog-date 2011-07-29 16:36:04 +0200
+# catalog-license lppl1.3
+# catalog-version 1.31
 Name:		texlive-curve2e
 Version:	1.31
 Release:	1
@@ -47,6 +53,7 @@ direction at these nodes.
 %doc %{_texmfdistdir}/doc/latex/curve2e/manifest.txt
 #- source
 %doc %{_texmfdistdir}/source/latex/curve2e/curve2e.dtx
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +64,5 @@ direction at these nodes.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
