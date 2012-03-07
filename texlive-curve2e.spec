@@ -5,7 +5,7 @@
 # catalog-license lppl1.3
 # catalog-version 1.4
 Name:		texlive-curve2e
-Version:	1.4
+Version:	1.40
 Release:	1
 Summary:	Extensions for package pict2e
 Group:		Publishing
