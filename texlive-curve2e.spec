@@ -1,12 +1,12 @@
-# revision 25569
+# revision 28507
 # category Package
 # catalog-ctan /macros/latex/contrib/curve2e
-# catalog-date 2012-03-05 13:28:31 +0100
+# catalog-date 2012-12-11 19:51:50 +0100
 # catalog-license lppl1.3
-# catalog-version 1.4
+# catalog-version 1.41
 Name:		texlive-curve2e
-Version:	1.40
-Release:	2
+Version:	1.41
+Release:	1
 Summary:	Extensions for package pict2e
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/curve2e
@@ -54,26 +54,3 @@ direction at these nodes.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Fri Mar 09 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.40-2
-+ Revision: 783481
-- rebuild without scriptlet dependencies
-
-* Wed Mar 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.40-1
-+ Revision: 782986
-- Update to latest release.
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.31-2
-+ Revision: 750752
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.31-1
-+ Revision: 718189
-- texlive-curve2e
-- texlive-curve2e
-- texlive-curve2e
-- texlive-curve2e
-
