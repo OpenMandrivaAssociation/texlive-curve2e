@@ -6,7 +6,7 @@
 # catalog-version 1.41
 Name:		texlive-curve2e
 Version:	1.41
-Release:	6
+Release:	7
 Summary:	Extensions for package pict2e
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/curve2e
