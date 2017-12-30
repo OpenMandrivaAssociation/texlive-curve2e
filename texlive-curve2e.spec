@@ -1,12 +1,6 @@
-# revision 28507
-# category Package
-# catalog-ctan /macros/latex/contrib/curve2e
-# catalog-date 2012-12-11 19:51:50 +0100
-# catalog-license lppl1.3
-# catalog-version 1.41
 Name:		texlive-curve2e
-Version:	1.41
-Release:	9
+Version:	1.60
+Release:	1
 Summary:	Extensions for package pict2e
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/curve2e
@@ -38,12 +32,10 @@ direction at these nodes.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/curve2e/curve2e.sty
-%doc %{_texmfdistdir}/doc/latex/curve2e/README
-%doc %{_texmfdistdir}/doc/latex/curve2e/curve2e.pdf
-%doc %{_texmfdistdir}/doc/latex/curve2e/manifest.txt
+%{_texmfdistdir}/tex/latex/curve2e
+%doc %{_texmfdistdir}/doc/latex/curve2e
 #- source
-%doc %{_texmfdistdir}/source/latex/curve2e/curve2e.dtx
+%doc %{_texmfdistdir}/source/latex/curve2e
 
 #-----------------------------------------------------------------------
 %prep
