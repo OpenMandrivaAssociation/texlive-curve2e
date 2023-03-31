@@ -1,6 +1,6 @@
 Name:		texlive-curve2e
 Version:	57402
-Release:	1
+Release:	2
 Summary:	Extensions for package pict2e
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/curve2e
