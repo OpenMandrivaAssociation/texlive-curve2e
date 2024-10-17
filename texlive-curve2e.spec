@@ -3,7 +3,7 @@ Version:	67599
 Release:	1
 Summary:	Extensions for package pict2e
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/curve2e
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/curve2e
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/curve2e.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/curve2e.doc.r%{version}.tar.xz
