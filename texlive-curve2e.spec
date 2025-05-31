@@ -1,5 +1,5 @@
 Name:		texlive-curve2e
-Version:	67599
+Version:	72842
 Release:	1
 Summary:	Extensions for package pict2e
 Group:		Publishing
